@@ -18,7 +18,7 @@ import weka.core.Instances;
  * @author Gonzalo Maldonado
  */
 public class Main {
- 
+ //TODO implement BATCH algorithm, specified in https://code.google.com/p/ifcsoft/wiki/SOMAlgorithm
     private static Instances dataSet;
     private static ArrayList<NodeValue> nodes;
     private static TTOSOM ttosom;
@@ -74,8 +74,8 @@ public class Main {
         seedValue=1;
  
         //print current working directory
-        //System.out.println("Working Directory = " +
-        //        System.getProperty("user.dir"));
+        System.out.println("Working Directory = " +
+                System.getProperty("user.dir"));
  
  
         //Reading the parameters of the program.
